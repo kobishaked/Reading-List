@@ -1,19 +1,21 @@
 import React, {useContext, useState} from 'react'
 import ThemeContext from '../ThemeContext'
+import Button from './Button';
 
 const BookList = () => {
-    const [theme, setTheme] = useState(useContext(ThemeContext))
-    console.log("s")
-    console.log(theme)
-    console.log("5")
+  
+    const {isLightTheme, light, dark} = useContext(ThemeContext);
+    const theme = isLightTheme ? light : dark;
+
     return (
         
-        <div className='book-list'>
+        <div className='book-list' style = {{background: theme.bg, color: theme.syntax}}>
             <ul>
-                <li> first book </li>
-                <li> second book </li>
-                <li> third book </li>
+                <li style = {{background: theme.ui}}> first book </li>
+                <li style = {{background: theme.ui}}> second book </li>
+                <li style = {{background: theme.ui}}> third book </li>
             </ul>
+            <Button/>
         </div>
     )
 }

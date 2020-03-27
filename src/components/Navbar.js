@@ -1,11 +1,18 @@
-import React from 'react'
+import React, {useContext, useState} from 'react'
 import '../index.css'
-import { ThemeContext } from '../ThemeContext'
+import ThemeContext from '../ThemeContext'
  
 const Navbar = () => {
+
+    const {isLightTheme, light, dark} = useContext(ThemeContext);
+    const theme = isLightTheme ? light : dark;
+    console.log(isLightTheme)
+    
+
+
     return (
         
-            <nav>
+            <nav style = {{background: theme.ui, color: theme.syntax}}>
                 <h1> Context App</h1>
                 <ul>
                     <li> Home </li>
