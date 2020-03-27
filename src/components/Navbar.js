@@ -1,6 +1,6 @@
 import React, {useContext, useState} from 'react'
 import '../index.css'
-import ThemeContext from '../ThemeContext'
+import ThemeContext from '../contexts/ThemeContext'
  
 const Navbar = () => {
 

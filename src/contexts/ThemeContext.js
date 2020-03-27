@@ -5,11 +5,6 @@
 import React, {createContext, useState, useContext } from 'react'
 
 const ThemeContext = createContext({});
-
 export const ThemeContextProvider = ThemeContext.Provider;
 
-//for what reason we need this? there is no place we use it:
-// export const ThemeContextConsumer = ThemeContext.Consumer;  
-
 export default ThemeContext
-//2
