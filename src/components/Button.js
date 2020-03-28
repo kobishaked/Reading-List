@@ -3,7 +3,6 @@ import ThemeContext from '../contexts/ThemeContext'
 
 import AuthContext from '../contexts/AuthContext'
 
-
 const Button = () => {
     const {isLightTheme, light, dark, changeTheme} = useContext(ThemeContext);
     return (

@@ -7,8 +7,6 @@ const Navbar = () => {
     const {isLightTheme, light, dark} = useContext(ThemeContext);
     const theme = isLightTheme ? light : dark;
     console.log(isLightTheme)
-    
-
 
     return (
         
