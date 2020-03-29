@@ -1,7 +1,7 @@
 
 
 ************This project using functionl components, hooks such as useState, useEffect and useContext.
-************also using uuid and immer libraries
+also using uuid and immer libraries***************
 
 
 
