@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/kobishaked1-gmail.com/static/css/main.71c2b8e2.chunk.css",
-    "main.js": "/kobishaked1-gmail.com/static/js/main.565deee2.chunk.js",
-    "main.js.map": "/kobishaked1-gmail.com/static/js/main.565deee2.chunk.js.map",
-    "runtime-main.js": "/kobishaked1-gmail.com/static/js/runtime-main.d3605a4c.js",
-    "runtime-main.js.map": "/kobishaked1-gmail.com/static/js/runtime-main.d3605a4c.js.map",
-    "static/js/2.ec2ea18a.chunk.js": "/kobishaked1-gmail.com/static/js/2.ec2ea18a.chunk.js",
-    "static/js/2.ec2ea18a.chunk.js.map": "/kobishaked1-gmail.com/static/js/2.ec2ea18a.chunk.js.map",
-    "index.html": "/kobishaked1-gmail.com/index.html",
-    "precache-manifest.4bdbe169fb9f49ed21a5c761464891c2.js": "/kobishaked1-gmail.com/precache-manifest.4bdbe169fb9f49ed21a5c761464891c2.js",
-    "service-worker.js": "/kobishaked1-gmail.com/service-worker.js",
-    "static/css/main.71c2b8e2.chunk.css.map": "/kobishaked1-gmail.com/static/css/main.71c2b8e2.chunk.css.map",
-    "static/js/2.ec2ea18a.chunk.js.LICENSE.txt": "/kobishaked1-gmail.com/static/js/2.ec2ea18a.chunk.js.LICENSE.txt"
+    "main.css": "/Reading-List/static/css/main.71c2b8e2.chunk.css",
+    "main.js": "/Reading-List/static/js/main.565deee2.chunk.js",
+    "main.js.map": "/Reading-List/static/js/main.565deee2.chunk.js.map",
+    "runtime-main.js": "/Reading-List/static/js/runtime-main.6d5f83ef.js",
+    "runtime-main.js.map": "/Reading-List/static/js/runtime-main.6d5f83ef.js.map",
+    "static/js/2.ec2ea18a.chunk.js": "/Reading-List/static/js/2.ec2ea18a.chunk.js",
+    "static/js/2.ec2ea18a.chunk.js.map": "/Reading-List/static/js/2.ec2ea18a.chunk.js.map",
+    "index.html": "/Reading-List/index.html",
+    "precache-manifest.5e21487864f779044046213d3c7562c0.js": "/Reading-List/precache-manifest.5e21487864f779044046213d3c7562c0.js",
+    "service-worker.js": "/Reading-List/service-worker.js",
+    "static/css/main.71c2b8e2.chunk.css.map": "/Reading-List/static/css/main.71c2b8e2.chunk.css.map",
+    "static/js/2.ec2ea18a.chunk.js.LICENSE.txt": "/Reading-List/static/js/2.ec2ea18a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d3605a4c.js",
+    "static/js/runtime-main.6d5f83ef.js",
     "static/js/2.ec2ea18a.chunk.js",
     "static/css/main.71c2b8e2.chunk.css",
     "static/js/main.565deee2.chunk.js"
