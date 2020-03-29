@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/reading-list/static/css/main.71c2b8e2.chunk.css",
-    "main.js": "/reading-list/static/js/main.565deee2.chunk.js",
-    "main.js.map": "/reading-list/static/js/main.565deee2.chunk.js.map",
-    "runtime-main.js": "/reading-list/static/js/runtime-main.25872ca1.js",
-    "runtime-main.js.map": "/reading-list/static/js/runtime-main.25872ca1.js.map",
-    "static/js/2.ec2ea18a.chunk.js": "/reading-list/static/js/2.ec2ea18a.chunk.js",
-    "static/js/2.ec2ea18a.chunk.js.map": "/reading-list/static/js/2.ec2ea18a.chunk.js.map",
-    "index.html": "/reading-list/index.html",
-    "precache-manifest.6c75ae56a30a990d0d8441746dcd9c59.js": "/reading-list/precache-manifest.6c75ae56a30a990d0d8441746dcd9c59.js",
-    "service-worker.js": "/reading-list/service-worker.js",
-    "static/css/main.71c2b8e2.chunk.css.map": "/reading-list/static/css/main.71c2b8e2.chunk.css.map",
-    "static/js/2.ec2ea18a.chunk.js.LICENSE.txt": "/reading-list/static/js/2.ec2ea18a.chunk.js.LICENSE.txt"
+    "main.css": "/kobishaked1-gmail.com/static/css/main.71c2b8e2.chunk.css",
+    "main.js": "/kobishaked1-gmail.com/static/js/main.565deee2.chunk.js",
+    "main.js.map": "/kobishaked1-gmail.com/static/js/main.565deee2.chunk.js.map",
+    "runtime-main.js": "/kobishaked1-gmail.com/static/js/runtime-main.d3605a4c.js",
+    "runtime-main.js.map": "/kobishaked1-gmail.com/static/js/runtime-main.d3605a4c.js.map",
+    "static/js/2.ec2ea18a.chunk.js": "/kobishaked1-gmail.com/static/js/2.ec2ea18a.chunk.js",
+    "static/js/2.ec2ea18a.chunk.js.map": "/kobishaked1-gmail.com/static/js/2.ec2ea18a.chunk.js.map",
+    "index.html": "/kobishaked1-gmail.com/index.html",
+    "precache-manifest.4bdbe169fb9f49ed21a5c761464891c2.js": "/kobishaked1-gmail.com/precache-manifest.4bdbe169fb9f49ed21a5c761464891c2.js",
+    "service-worker.js": "/kobishaked1-gmail.com/service-worker.js",
+    "static/css/main.71c2b8e2.chunk.css.map": "/kobishaked1-gmail.com/static/css/main.71c2b8e2.chunk.css.map",
+    "static/js/2.ec2ea18a.chunk.js.LICENSE.txt": "/kobishaked1-gmail.com/static/js/2.ec2ea18a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.25872ca1.js",
+    "static/js/runtime-main.d3605a4c.js",
     "static/js/2.ec2ea18a.chunk.js",
     "static/css/main.71c2b8e2.chunk.css",
     "static/js/main.565deee2.chunk.js"
