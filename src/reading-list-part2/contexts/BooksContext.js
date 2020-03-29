@@ -13,17 +13,31 @@ export const BooksContextProvider = (props) => {
                 setBooks(produce(draft => {
                     draft.booksList.push(book)
                 }))
-            }, 
+            },
             removeBook: function (book) {
                 setBooks(produce(draft => {
-                    draft.booksList =  draft.booksList.filter((item)=>
-                   item.id !== book.id)
+                    draft.booksList = draft.booksList.filter((item) =>
+                        item.id !== book.id)
                 }))
+
             }
         })
-                
-                
-          
+
+    useEffect(() => {
+        if (localStorage.getItem("books")) {
+            setBooks(produce(draft => {
+                draft.booksList = JSON.parse(localStorage.getItem("books"));
+            }))
+        }
+    }, [])
+
+    useEffect(() => {
+        setBooks(produce(draft => {
+            localStorage.setItem("books", JSON.stringify(books.booksList))
+        }))
+    }, [books])
+
+
     return (
         <BooksContext.Provider value={books}>
             {props.children}
