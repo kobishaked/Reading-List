@@ -1,3 +1,11 @@
+
+
+************This project using functionl components, hooks such as useState, useEffect and useContext.
+************also using uuid and immer libraries
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
