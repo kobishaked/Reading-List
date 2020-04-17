@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useContext } from 'react'
 // import '../index.css'
 import BooksContext from '../contexts/BooksContext'
-import '../index.css'
+import styled from 'styled-components'
+
 
 const Navbar = () => {
 
@@ -19,14 +20,26 @@ const Navbar = () => {
             break;
     }
 
+
+
+
     return (
 
-        <nav className="navbar">
+        <Nav>
             <h1> Ninja Reading List</h1>
             <p> {msg}</p>
-        </nav>
+        </Nav>
 
     )
 }
 
 export default Navbar
+
+
+
+const Nav = styled.nav`
+    padding: 10px 20px;
+    text-align: center;
+    background: #6d3d6d;
+`
+ 
