@@ -1,0 +1,53 @@
+[33mcommit f9a8ed599bf3aa4e72918de0b15ce8b21d88a89f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: kobi <kobishaked1@gmail.com>
+Date:   Fri Apr 17 21:36:20 2020 +0300
+
+    made a clone of the styles with just using the styled-components
+
+[33mcommit 113b4cfc1c96fdab9705fc1226e2a3f86cf4f20a[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: kobi <kobishaked1@gmail.com>
+Date:   Sun Mar 29 12:57:20 2020 +0300
+
+    all the project finished just without using reducer
+
+[33mcommit 4c48b9415d1c53a3126371f0d45c74cd379f8001[m
+Author: kobi <kobishaked1@gmail.com>
+Date:   Sun Mar 29 11:28:56 2020 +0300
+
+    finished up to the video 18 included. without using reducer and local storage
+
+[33mcommit 4a8a05a96296858824e0e17f749d46174595d44e[m
+Author: kobi <kobishaked1@gmail.com>
+Date:   Sat Mar 28 11:45:21 2020 +0300
+
+    upgraded the context files and swiching to return components from the context file. also moving the state of the context from the App component to the context file
+
+[33mcommit 9cefe558d2574463c256c5cca9a8964496610bd5[m
+Author: kobi <kobishaked1@gmail.com>
+Date:   Fri Mar 27 23:33:26 2020 +0300
+
+    using 2 contexts and improve the change functions context inside the object (making all the change in one line)
+
+[33mcommit 26f397605fa07176aa1e162bad795f58050cb998[m
+Author: kobi <kobishaked1@gmail.com>
+Date:   Fri Mar 27 20:03:13 2020 +0300
+
+    fixed the problem with the changing theme more than the first time. the change is in the setState function and the prev argument
+
+[33mcommit 7137eecff9484a427b1c99bc6be432719d439c37[m
+Author: kobi <kobishaked1@gmail.com>
+Date:   Fri Mar 27 11:19:02 2020 +0300
+
+    set up context file. up to video 3 included
+
+[33mcommit d4fde5b8d9274998556b02bc822fa396dd1449ae[m
+Author: kobi <kobishaked1@gmail.com>
+Date:   Fri Mar 27 11:16:26 2020 +0300
+
+    first commit
+
+[33mcommit f44f263f54100bd0467262dbe6458e03b694cd80[m
+Author: kobi <kobishaked1@gmail.com>
+Date:   Fri Mar 27 11:11:00 2020 +0300
+
+    Initialize project using Create React App

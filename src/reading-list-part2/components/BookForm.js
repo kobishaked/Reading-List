@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react'
-import BooksContext from '../contexts/BooksContext'
-import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components'
+import { v4 as uuidv4 } from 'uuid';
+import BooksContext from '../contexts/BooksContext'
 
 
 const BookForm = () => {
@@ -37,27 +37,32 @@ export default BookForm
 
 
 
-
-
 const Form = styled.form`
-padding: 20px;
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   margin: 10px auto;
 `
+
 const Input = styled.input`
-width: 100%;
-padding: 10px;
-box-sizing: border-box;
-margin: 6px 0;
-background: #3c1f3c;
-color: #fff;
-border: 0;
+    height: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 6px 0;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
 `
 
 const Submit = styled.input.attrs({ type: 'submit',})`
-margin: 10px auto;
-background: thistle;
-border: 0;
-padding: 6px 20px;
-display: block;
+   max-width: 80px;
+    background: #499DE2;
+    border: 0;
+    padding: 6px 15px;
+    text-align: end;
+    border-radius: 30px;
+    color: white;
+    align-self: flex-end;
 `
 
 //question:

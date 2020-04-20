@@ -1,28 +1,33 @@
 import React, { useState, useEffect, useContext } from 'react'
+import styled from 'styled-components'
 import Navbar from './Navbar'
-import styled, { createGlobalStyle } from 'styled-components'
-
-
 import BookList from './BookList'
-import { BooksContextProvider } from '../contexts/BooksContext'
-import { v4 as uuidv4 } from 'uuid';
 import BookForm from './BookForm';
+import { BooksContextProvider } from '../contexts/BooksContext'
+import img from '../images/Reading_illustration.png'
 
 
 const App = () => {
 
 
     return (
-        <Div>
-            <GlobalStyle />
-            <BooksContextProvider>
-                <Navbar />
-                <BookList />
-                <BookForm />
-            </BooksContextProvider>
+        <>
+            <Wrapper>
+                <Menu >
+                    <BooksContextProvider>
+                        <Navbar />
+                        <BookList />
+                        <BookForm />
+                    </BooksContextProvider>
+                </Menu>
+                <Picture >
+                    <img src={img} width="80%" align="right" background="transparent"></img>
+                </Picture>
+            </Wrapper>
+        </>
 
 
-        </Div>
+
     )
 }
 
@@ -31,25 +36,24 @@ export default App
 
 
 
-const GlobalStyle = createGlobalStyle`
-    body{
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-        sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        background: #553055;
-    }
+const Wrapper = styled.div`
+    display: grid;
+    grid-template-columns: 50% auto;
+    background-color: #ecf0f1;
+    @media (max-width: 640px) {
+        grid-template-columns: auto;
+      }
 `
-
-const Div = styled.div`
-    background: #4c2a4c;
-    margin: 20px auto;
-    width: 90%;
-    max-width: 700px;
-    color: #eee;
+const Menu = styled.div`
+    background-color: #E4E4F0;
 `
+const Picture = styled.div`
+    backround: transparent;
+    @media (max-width: 640px) {
+        display: none;
+      }
 
+`
 
 
 

@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react'
-// import '../index.css'
-import BooksContext from '../contexts/BooksContext'
 import styled from 'styled-components'
+import BooksContext from '../contexts/BooksContext'
 
 
 const Navbar = () => {
@@ -10,13 +9,13 @@ const Navbar = () => {
     let msg = "";
     switch (booksList.length) {
         case 0:
-            msg = "currently you don't have any books in the list"
+            msg = <P color={"orange"}> currently you don't have any books in the list</P>
             break;
         case 1:
-            msg = "currently you have just one book left to read"
+            msg = <P> currently you have <b>one book</b> left to read</P>
             break;
         default:
-            msg = `currently you have ${booksList.length} books left to read`
+            msg = <P> currently you have <b>{booksList.length} books</b> left to read</P>
             break;
     }
 
@@ -24,22 +23,28 @@ const Navbar = () => {
 
 
     return (
-
-        <Nav>
-            <h1> Ninja Reading List</h1>
-            <p> {msg}</p>
-        </Nav>
-
+        <>
+            <H1> Reading List</H1>
+            {msg}
+        </>
     )
 }
 
 export default Navbar
 
 
-
-const Nav = styled.nav`
-    padding: 10px 20px;
+const H1 = styled.h1`
+    margin: 30px 0px 15px 0px;
+    color: #499DE2;
     text-align: center;
-    background: #6d3d6d;
+    font-size: 45px;
 `
- 
+
+const P = styled.p`
+    padding: 5px 10px;
+    width: 50%;
+    text-align: center;
+    margin: 0px auto 0px;
+    background: ${props => (props.color==="orange"? "#FF4800": "#00CD71")};
+    border-radius: 30px;
+`
