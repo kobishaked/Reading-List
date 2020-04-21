@@ -20,9 +20,9 @@ const App = () => {
                         <BookForm />
                     </BooksContextProvider>
                 </Menu>
-                <Picture >
-                    <img src={img} width="80%" align="right" background="transparent"></img>
-                </Picture>
+
+                <Img src={img} width="80%" align="right" background="transparent"></Img>
+
             </Wrapper>
         </>
 
@@ -37,23 +37,34 @@ export default App
 
 
 const Wrapper = styled.div`
-    display: grid;
-    grid-template-columns: 50% auto;
+    display: flex;
+    flex-direction: row;
     background-color: #ecf0f1;
-    @media (max-width: 640px) {
-        grid-template-columns: auto;
-      }
+    height: 100vh;
 `
 const Menu = styled.div`
     background-color: #E4E4F0;
+    width: 50%;
+    
+ 
+    @media (max-width: 600px) {
+        width: 100%;
+        height: 100vh;
+    }
+    
 `
-const Picture = styled.div`
-    backround: transparent;
-    @media (max-width: 640px) {
+const Img = styled.img`
+    width: 50%;
+    height: 100%;
+  
+    @media (max-width: 600px) {
         display: none;
       }
 
 `
+
+
+
 
 
 

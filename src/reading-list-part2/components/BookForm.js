@@ -18,7 +18,7 @@ const BookForm = () => {
     }
 
     return (
-        <div>
+        <>
             <Form onSubmit={handleSubmit}>
                 <Input type="text" placeholder="book title"
                     onChange={(e) => setTitle(e.target.value)}
@@ -29,7 +29,7 @@ const BookForm = () => {
                 <Submit type="submit" value="add book">
                 </Submit>
             </Form>
-        </div>
+        </>
     )
 }
 
@@ -38,27 +38,37 @@ export default BookForm
 
 
 const Form = styled.form`
+   max-width: 60%;
    display: flex;
    flex-direction: column;
-   width: 60%;
-   margin: 10px auto;
+ 
+   margin: 3px auto;
 `
 
 const Input = styled.input`
-    height: 30px;
+    font-size: 10px;
+    height: 20px;
     padding: 10px;
     box-sizing: border-box;
-    margin: 6px 0;
+    margin: 3px 0;
     border-radius: 30px;
     border: 0;
     outline: none;
 `
 
+// padding: 5px 10px;
+//     max-width: 300px;
+//     text-align: center;
+//     margin: 0px auto 0px;
+//     background: ${props => (props.color==="orange"? "#FF4800": "#00CD71")};
+//     border-radius: 30px;
+
 const Submit = styled.input.attrs({ type: 'submit',})`
+font-size: 10px;
    max-width: 80px;
     background: #499DE2;
     border: 0;
-    padding: 6px 15px;
+    padding: 3px 5px;
     text-align: end;
     border-radius: 30px;
     color: white;
@@ -68,3 +78,5 @@ const Submit = styled.input.attrs({ type: 'submit',})`
 //question:
 // for what reason we need the value property in the input and
 //button 
+
+

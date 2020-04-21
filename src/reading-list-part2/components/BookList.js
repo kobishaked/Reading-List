@@ -37,7 +37,7 @@ const Li = styled.li`
     background: #4A4E7C;
     border-radius: 4px;
     cursor: pointer;
-    margin: 10px auto;
+    margin: 3px auto;
     &:hover{
         opacity: 0.7;
         text-decoration: line-through;  
@@ -48,12 +48,12 @@ const H1 = styled.h1`
     font-weight: bold;
     color: #fff;
     padding: 0;
-    font-size: 1.2em;
+    font-size: 0.9em;
     margin: 0;
 `
 
 const P = styled.p`
-    font-size: 0.9em;
+    font-size: 0.7em;
     padding: 0;
     color: #ddd;
     margin: 5px 0px 0px 0px;

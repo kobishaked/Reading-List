@@ -34,15 +34,16 @@ export default Navbar
 
 
 const H1 = styled.h1`
-    margin: 30px 0px 15px 0px;
+    margin: 20px 0px 10px 0px;
     color: #499DE2;
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
 `
 
 const P = styled.p`
+    font-size: 13px;
     padding: 5px 10px;
-    width: 50%;
+    max-width: 250px;
     text-align: center;
     margin: 0px auto 0px;
     background: ${props => (props.color==="orange"? "#FF4800": "#00CD71")};
