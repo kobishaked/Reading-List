@@ -1,8 +1,10 @@
+# Reading List
+This is a simple client app using React.
+deployed with github pages.
 
+####link to the app: https://kobishaked.github.io/Reading-List/
 
-***This project using functional components and hooks such as useState, useEffect and useContext.
-also using uuid and immer libraries.***
-***link to the deployed website: https://kobishaked.github.io/Reading-List/***
+upcoming changes:
+1. connecting to a DB
+2. design improvement
 
-
-"# kobishaked1-gmail.com" 
